@@ -1,0 +1,32 @@
+body {
+    color: #606060;
+	font-size: 1em;
+	text-align: left;
+	min-height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #393;
+	text-decoration: underline;
+}
+a:hover {
+	color: #393;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+img {
+	max-width: 100%;
+}
+.clr { 
+	clear: both;
+}
+.clearfix:after { 
+	clear: both;
+	content: "";
+	display: table;
+}
